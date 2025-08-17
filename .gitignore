@@ -205,3 +205,29 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Byte-compiled
+__pycache__/
+*.py[cod]
+
+# Virtual envs
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+data/raw/*
+data/processed/*
+!data/.gitkeep   # keep empty folder structure
+
+# Logs
+*.log
+
+# Spark checkpoints
+spark-warehouse/
+metastore_db/
+
+# Credentials
+configs/*.yaml
+!configs/config_example.yaml
